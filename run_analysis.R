@@ -1,5 +1,5 @@
 # Defining string constant with path to the data set directory
-datasetDir <- "./data/UCI HAR Dataset/"
+datasetDir <- "./UCI HAR Dataset/"
 
 # Reading features and descriptive activity labels
 features <- read.table(paste(datasetDir, "features.txt", sep = ""), stringsAsFactors=F)
